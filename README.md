@@ -58,10 +58,6 @@ The web application has the following features:
   * Build and deploy the project to the Tomcat server
   
  After completing the installation steps, you should be able to access the Kittency web app at http://localhost:8080/kittency.
- 
-**CREDITS**
-
-Kittency was developed by **Mohammed Faraaz Ahmed**.
 
 **PREVIEW**
 
@@ -74,3 +70,9 @@ Kittency was developed by **Mohammed Faraaz Ahmed**.
 
 **NOTE :**_Please note that this project is still in progress and the current version is just a prototype. We are working on a fully functional website using modern frameworks such as Nuxt.js. Stay tuned for further updates!_
 
+**CREDITS**
+
+Kittency was developed by 
+**Mohammed Faraaz Ahmed**
+**Shamith Mylar** --> https://github.com/shamithmylar20
+**Shruti M**
