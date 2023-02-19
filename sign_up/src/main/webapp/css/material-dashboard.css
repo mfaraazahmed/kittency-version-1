@@ -1,0 +1,719 @@
+/* custom CSS styles */
+
+@charset "UTF-8";
+
+i.display-flex-center.zmdi.zmdi-facebook{
+	color: #3B5998;
+}
+
+i.display-flex-center.zmdi.zmdi-twitter{
+	color: #1DA1F2;
+}
+
+i.display-flex-center.zmdi.zmdi-google{
+	color: #D14836;
+}
+/* Sign-in and Sign-up page styles START here */
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.signin-content, .signup-content{
+	background: rgba(109, 165, 194, 0.2);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:65vw;
+	background: rgba(125, 165, 194, 0.2);
+	mix-blend-mode: normal;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.signin-form, .signup-form{
+	width: 60%;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+    padding-left: 3rem;
+	
+}
+
+.signin-form .form-title, .signup-form .form-title{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 2.5rem;
+	line-height: 3.75rem;
+}
+
+.input-block input[type="text"], .input-block input[type="password"], .input-block input[type="email"], .input-block input[type="number"] {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 70%;
+  line-height: 1.5rem;
+  font-size: 0.825rem;
+}
+
+
+.input-block{
+	width: 20rem;
+	border-bottom: 1px solid #000;
+} 
+
+.sign-in .form-title, .sign-up .form-title{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 2.5rem;
+	line-height: 3.75rem;
+	}
+
+.register-form .form-group{
+	margin-top: 2rem;
+}
+
+i.zmdi::before{
+	font-size: 1.375rem;
+	margin-right: 1rem;
+}
+
+.form-button.form-group .form-submit{
+	width: 8rem;
+	height: 2.5rem;
+	background: #7DA5C2;
+	border-radius: 10px;
+	color: #FFFFFF;
+	border: none;
+	text-decoration: capitalize;
+}
+
+.update-section .form-button .form-submit{
+	width: 8rem;
+	height: 2.5rem;
+	background: #F5E9D3;
+	border-radius: 10px;
+	color: #000000;
+	border: none;
+	text-decoration: capitalize;
+	margin: 1rem;
+}
+
+label.label-agree-term{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.835rem;
+	line-height: 3.75rem;
+}
+
+.signin-form .social-login{
+	display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: start;
+}
+
+.social-login .socials {
+  display: flex;
+  list-style: none; /* remove the bullet points */
+  margin: 0;
+  margin-top: 3rem;
+  padding: 0 2rem;
+}
+
+.social-login .socials li {
+  margin-right:5px; /* add some spacing between the items */
+}
+
+.signin-image, .signup-image{
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.signin-image img, .signup-image img{
+	width: 100%;
+}
+
+a.signup-image-link{
+	margin: 1rem 2rem;
+	color: #333333;
+}
+
+.alt-login li{
+	text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.alt-login li a{
+    color: #000;
+}
+
+.alt-login li a:hover{
+	color: rgba(109, 165, 194, 1);
+}
+
+/* Buy page Styles starts here */
+
+nav.navbar{
+	background-color: #7DA5C2 !important;
+}
+
+.navbar-brand .logo{
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+}
+
+a.nav-link{
+	color: #FFFFFF !important;
+	font-family: 'Lato' !important;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 2.25rem;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 0 2rem !important;
+}
+
+.banner.top .row{
+	background-color: #7DA5C2;
+}
+
+.banner-text.top{
+	color: #ffffff;
+}
+
+.banner-text.bottom{
+	color: #000000;
+}
+
+.banner.bottom .row{
+	background-color: #F5E9D3;
+}
+
+.banner .row{
+	height: 20rem;
+	margin-top: 1.4375rem;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem !important;
+	border-radius: 10px; 
+	mix-blend-mode: normal;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	transition: all 0.3s ease;
+}
+
+.banner .row:hover{
+	transform: scale(1.01);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+.banner .row .col{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around !important;
+}
+
+.banner .row .col img{
+	height: 25rem;
+	width: auto;
+	margin-bottom: 1rem;
+}
+
+.row .col .banner-text{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.5rem;
+	line-height: 60px;
+	width: 75%;
+}
+
+/* Buy cards styles STARTS here */
+#page-top .buy-title{
+	margin: 2rem 2rem;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 1.3rem;
+	line-height: 3.125rem;
+}
+
+.row.buy-container{
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.buy-container .col-md-3{
+    padding: 0!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.buy-container .card{
+	transition: all 0.3s ease;
+}
+
+.buy-container .card:hover{
+	transform: scale(1.1);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+.card .buy-image{
+	height: 13rem;
+	width: 13rem;
+	object-fit: cover;
+	margin: 0 auto;
+	margin-top: 5px;
+	border-radius: 10px;
+	
+}
+
+.buy-container .card{
+	width: 14rem;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.card .card-title{
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0;
+}
+
+.card .card-body{
+	margin: 0;
+	padding: 0.7rem 1rem !important;
+}
+
+.card-body .card-text{
+	font-size: 0.7rem;
+	color: #333333;
+	font-weight: 300;
+	margin: 0;
+}
+
+a.btn{
+	background-color: #7DA5C2;
+	margin-top: 0.5rem;
+	padding: 0.5rem 1.6rem;
+	border-radius: 10px;
+	border: none;
+}
+
+/* Buy cards styles STARTS here */
+
+/* Sell page styling STARTS here */
+
+.sell-body, .contact-seller, .profile-body {
+  display: flex;
+  padding: 1rem;
+}
+
+.carousal-section {
+  width: 30%;
+  height: 100%;
+  border-radius: 15px !important;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px !important;
+}
+
+.sell-body .form-section, .profile-body .form-section{
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.form-section {
+  width: 70%;
+  min-height: 100%;
+  background: #F5E9D3;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.title-section{
+	margin: 2rem 0;	
+}
+
+.heading{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+
+
+input.img-input{
+	display: block;
+	border: none;
+	margin-bottom: 1rem;
+}
+
+.form-text-inputs{
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 3rem;
+	margin: 1.4rem 0;
+}
+
+.text-area-group{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+.text-area-group textarea{
+	border: 2px solid #7DA5C2;
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+.form-text-inputs .form-group label{
+	width: 3rem;
+}
+
+.form-input-block{
+	background: #ffffff;
+	margin: 1rem 0;
+	width: 20rem;
+	padding: 0rem 0rem 0rem 1rem;
+	border: 2px solid #7DA5C2;
+	border-radius: 10px;
+}
+
+.form-input-block input{
+	border: none;
+	padding: 0;
+	margin: 0;
+	text-indent: 1rem;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-size: 0.8rem;
+	min-width: 70%;
+	padding: 0.5rem 0rem;
+}
+
+.form-input-block input:focus {
+	outline: none;
+}
+ 
+.form-input-block label{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-size: 0.8rem;
+}
+
+/* Sell page styling ENDS here */
+
+/* contact SELLER starts here */
+
+.contact-seller .form-section{
+  margin: 0rem 1rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section .cat-img{
+	width: 35%;
+	height: 20rem;
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #7DA5C2;
+	border-radius: 10px;
+}
+
+.cat-img .profile-img {
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+	border-radius: 10px;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+	padding: 0rem 2rem;
+	row-gap: 1rem;
+	height: max-content;
+}
+
+.upper-row {
+    min-width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.upper-row .title{
+    font-size: 1.5rem;
+}
+
+.product-details{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.product-details .left-title{
+	width: 13rem;
+	display: inline-block;
+}
+
+.contact-seller .form-button.form-group .form-submit{
+	width: 18rem !important;
+    height: 3rem !important;
+    margin-top: 2rem;
+}
+
+.bottom-row{
+	flex-direction: column;
+	min-width: 100%;
+    display: flex;
+    margin-top: 5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.bottom-row .suggested-card .card-title{
+	text-transform: capitalize;
+}
+
+.bottom-row .suggested-card .card-body .card-text{
+	margin: 4px 0;
+	font-size: 0.8rem;
+	font-weight: 300;
+}
+
+.bottom-row .suggested-card .text-muted{
+	color: #7DA5C2 !important;
+}
+
+.bottom-row .suggested-card{
+	display: flex;
+	flex-direction: row;
+	margin-top: 2rem;
+	column-gap:4rem;
+}
+
+.suggested-card .row{
+	width: 25rem;
+    border-radius: 10px;
+}
+
+.suggested-card .card{
+	transition: all 0.3s ease;
+}
+
+.suggested-card .card:hover{
+	transform: scale(1.1);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+.suggested-card .card .card-body{
+	padding: 0 1.3rem !important;
+}
+
+.suggested-card .card .card-body .card-title{
+	margin-top: 0.5rem;
+}
+
+.suggested-card img{
+	border-style: none;
+    width: 9rem;
+    height: 7rem;
+    object-fit: cover;
+    margin: 0 auto;
+    padding: 0.6rem;
+}
+/* contact SELLER ends here */
+
+/* ABOUT page design starts here */
+#about-us .text-container{
+	background-color: rgba(245, 233, 211, 0.75);
+	mix-blend-mode: normal;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	position: relative;
+	padding: 7rem 4rem 3rem;
+	width: 95vw;
+	margin: 0 auto;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+#about-us .title-section{
+	background: #7DA5C2;
+	mix-blend-mode: normal;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 2.5rem;
+	line-height: 108px;
+	color: #FFFFFF;
+	height: 9rem;
+	width: 35rem;
+	margin: 0 auto; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+  	left: 50%;
+  	top: 1%;
+ 	transform: translate(-50%, -50%);
+}
+
+#about-us .title-section .title{
+	width: fit-content;
+}
+
+#about-us .content-container .content-block{
+	margin-bottom: 3.5rem;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.3rem;
+	line-height: 2.8rem;
+	color: #000000;
+}
+
+#about-us .content-container .content-block .sub-heading{
+	font-weight: 800;
+	display: block;
+}
+
+/* ABOUT page design ENDS here */
+
+/* ADMIN USERS starts here */
+
+.banner.bottom .total-count .banner-text{
+	font-size: 1.6rem !important;
+}
+
+.banner.bottom .total-count .count{
+	display: block;
+	line-height: 0.5rem;
+}
+
+#admin-users .detail-container, #admin-cats .detail-container, #admin-products .detail-container{
+	min-width: 97%;
+	height: auto;
+    border: 1px solid #7DA5C2;
+    margin: 0 auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	border-radius: 10px;
+	background: rgba(125, 165, 194, 1);
+	mix-blend-mode: normal;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.detail-container .update-section form{
+	color: #fff;
+	display: flex;
+	column-gap: 2rem;
+	align-items: center;
+}
+
+.detail-container .update-section form input{
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	text-indent: 10px;
+	height: 2rem;
+}
+
+.inner-table {
+    min-width: 100%;
+    margin: 0.5rem 0;
+    background: #fff;
+    border-radius: 10px;
+    padding: 2rem 0;
+}
+
+.table-data{
+    border-right: 1px solid #000 !important;
+    width: 15rem;
+    padding: 1rem !important;
+}
+
+table.admin-table{
+	text-align: center;
+}
+
+/* Profile section styling */
+.profile-body .account-id-display{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 2.5rem;
+	line-height: 4rem;
+}
+
+.profile-body .profile-block {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 20rem;
+}
+
+.profile-body .profile-block .title{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 275;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.profile-body .profile-block .value{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3rem;
+	line-height: 2rem;
+	margin-top: 0.5rem;
+	
+}
+
+.profile-body .profile-block .mid-line{
+	border-top: 0.5px solid #000;
+}
+
+.total-visits{
+	width: 100%;
+    text-align: center;
+}
