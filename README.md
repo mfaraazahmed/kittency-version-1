@@ -62,3 +62,8 @@ The web application has the following features:
 **CREDITS**
 
 Kittency was developed by **Mohammed Faraaz Ahmed**.
+
+**PREVIEW**
+
+![Login page](https://github.com/mfaraazahmed/kittency-version-1/blob/main/loginPage.png)
+
