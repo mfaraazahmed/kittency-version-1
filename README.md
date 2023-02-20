@@ -73,6 +73,6 @@ The web application has the following features:
 **CREDITS**
 
 Kittency was developed by 
-- **Mohammed Faraaz Ahmed**
-- **Shamith Mylar** --> https://github.com/shamithmylar20
-- **Shruti M**
+- **Mohammed Faraaz Ahmed** (Front-end development and Back-end development)
+- **Shamith Mylar** (Back-end development and Designing UI/UX)
+- **Shruti M** (Designing and Documentation)
