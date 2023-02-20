@@ -62,10 +62,13 @@ The web application has the following features:
 **PREVIEW**
 
 ![Login page](https://github.com/mfaraazahmed/kittency-version-1/blob/main/images/loginPage.png)
+
 ![Buy page](https://github.com/mfaraazahmed/kittency-version-1/blob/main/images/buyPage.png)
+
 ![Checkout page](https://github.com/mfaraazahmed/kittency-version-1/blob/main/images/checkoutPage.png)
-![Checkout page](https://github.com/mfaraazahmed/kittency-version-1/blob/main/images/checkoutPage.png)
+
 ![Sell page](https://github.com/mfaraazahmed/kittency-version-1/blob/main/images/sellPage.png)
+
 ![About Page](https://github.com/mfaraazahmed/kittency-version-1/blob/main/images/aboutPage.png)
 
 **NOTE :**_Please note that this project is still in progress and the current version is just a prototype. We are working on a fully functional website using modern frameworks such as Nuxt.js. Stay tuned for further updates!_
